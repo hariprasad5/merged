@@ -1,0 +1,274 @@
+{
+  "intents": [
+    {
+      "tag": "main menu",
+      "patterns": [ "give me the menu", "show me the main menu", "where is the main menu", "display main menu" ,"help" ],
+      "responses": [ "Please select one of the below options or ask your own question " ],
+      "action": "",
+      "resources": "",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About Excellencia", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t1",
+      "patterns": [ "Good morning", "good mornin", "gud morning", "mornin","gm"],
+      "responses": [ "Good Morning <br> Welcome to Ahad Builders help desk <br> Ahad Excellencia is a Spanish themed project of 1, 2 & 3 bedroom homes located off Sarjapur Road., Bengaluru.   <a href='https://www.youtube.com/watch?v=BhV2LxKj2aw' target='_blank'><a href='https://www.youtube.com/watch?v=BhV2LxKj2aw' target='_blank'>See video - here</a></a>" ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About Excellencia", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t2",
+      "patterns": [ "Good Afternoon" ,"noon" ],
+      "responses": [ "Good Afternoon <br> Welcome to Ahad Builders help desk <br> Ahad Excellencia is a Spanish themed project of 1, 2 & 3 bedroom homes located off Sarjapur Road., Bengaluru. <a href='https://www.youtube.com/watch?v=BhV2LxKj2aw' target='_blank'>See video - here</a>  " ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About Excellencia", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t3",
+      "patterns": [ "Good Evening", "ge" ],
+      "responses": [ "Good Evening <br> Welcome to Ahad Builders help desk <br> Ahad Excellencia is a Spanish themed project of 1, 2 & 3 bedroom homes located off Sarjapur Road., Bengaluru. <a href='https://www.youtube.com/watch?v=BhV2LxKj2aw' target='_blank'>See video - here</a>  " ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About Excellencia", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t4",
+      "patterns": [ "Good Night" ,"night","gn"],
+      "responses": [ "Good Night <br> Welcome to Ahad Builders help desk <br> Ahad Excellencia is a Spanish themed project of 1, 2 & 3 bedroom homes located off Sarjapur Road., Bengaluru. <a href='https://www.youtube.com/watch?v=BhV2LxKj2aw' target='_blank'>See video - here</a>  " ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About Excellencia", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t5",
+      "patterns": [ "Hi there", "Is anyone there?", "hello there", "how can you help me" , "hi", "hello", "hey", "good day","who are you"],
+      "responses": [ "Hello <br> Welcome to Ahad Builders help desk <br> Ahad Excellencia is a Spanish themed project of 1, 2 & 3 bedroom homes located off Sarjapur Road., Bengaluru. <a href='https://www.youtube.com/watch?v=BhV2LxKj2aw' target='_blank'>See video - here</a>  " ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About Excellencia", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t6",
+      "patterns": [ "How are you", "Hows your day going", "hows life" ],
+      "responses": [ "I am fine thanks for asking <br> Welcome to Ahad Builders help desk <br> Ahad Excellencia is a Spanish themed project of 1, 2 & 3 bedroom homes located off Sarjapur Road., Bengaluru. <a href='https://www.youtube.com/watch?v=BhV2LxKj2aw' target='_blank'>See video - here</a>  " ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About Excellencia", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [ "do you have", "give me", "can you help me in planning a date","no","not","i cant read","how is the climate","what is the time/date","what is my pet name","where am i","what is the capital","where is my bike", "is it raining","-","+","*",":","!","Who me","who she","Who he","who it","what she","what he","bullshit","fuck","pussy","motherfucker","cunt","nigga","gay","lesbian","LGBT","bisexual","transgender","whore","asshole","jackass"],
+      "responses": [ "Sorry, I can't understand you. I can speak about Ahad Builders.<br> Please type 'Help' <br>For further details, please email us at sales@ahadbuilders.com or call at +91-7676150150. <br>We would be glad to assist you." ],
+      "action": "link",
+      "resources": "https://ahad's website",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About Excellencia", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "about ahad",
+      "patterns": [ "about", "tell me more", "i would like to hear more", "more about ahad", "company","agency","about ahad"],
+      "responses": [ "About 45 years ago, we began our journey of a promising success in building houses and helping build homes. We believe we experience satisfaction in the truest sense only when our customers are happy. Nurturing a legacy of trust for 3 generations now, our promise has met Zero Missed Deadlines. Punctuality is not a lost virtue. We stand testimony to that. Steering clear of debts on our credit, we have built a Zero-Debt Company, Ahad has delivered a whopping 226 projects to about 6,480 customers. Homes raise and age families through different time spans." ],
+      "action": "link",
+      "resources": "https://ahad's website",
+      "nextpattern": "",
+      "buttons": [ "Brochure", "About Excellencia", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "about ahadexcellencia",
+      "patterns": [ "project details", "recent images", "more about project details", "project dets", "what is ahad excellencia","ahad excellencia","attributes","characteristic","specifics","about excllencia"],
+      "responses": [ "AhadExcellencia is a Spanish themed project of 1, 2 & 3 bedroom homes located off Sarjapur Road., Bengaluru. Here are some options to help you navigate" ],
+      "action": "image",
+      "resources": "project_image",
+      "nextpattern": ":::---",
+      "buttons": [ "About Ahad", "Brochure", "Floor plans", "Location", "Amenities", "Project Progress" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "amenities",
+      "patterns": [ ":::--- amenities", ":::--- amenities offered", ":::--- amenities present", ":::--- facilities provided", ":::--- facility", ":::--- features", ":::--- offered", ":::--- provided", ":::--- project amenities" ],
+      "responses": [ "You only live once. So live well! It is said that the difference between the ordinary and the extraordinary is that little extra. AhadExcellencia is a project that reflects this difference. Everything here transforms from the average into the magnificent, all because we believe that you deserve more <br>– more space, more convenience, more style and not to forget, more of life’s little joys.<br> - Swimming Pool with Ozone System, Toddler pool along with pool deck <br> Club House with Pool-side Cafeteria provision <br>- Multipurpose Hall (2nos)<br> - Health Club with Jacuzzi, Steam & Sauna (separate for Ladies &  Gents) <br>- Well equipped Gym <br>- Aerobic Hall<br> - Indoor Games with Board games, Table Tennis, Foos ball & Pool table<br> - Home  Theatre<br> - TV Lounge <br>- Lobby with Reception <br>- MS Pergola facing Fountain <br>- Resting Benches at various locations <br>- Water  Features across location <br>- Cricketing Pitch<br> - Basket Ball Pole <br>- Outdoor Ball Badminton Court <br>- Children’s Play Area <br>-  Amphitheatre <br>- Shuttle service " ],
+      "action": "image",
+      "resources": "image link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "Floor plans", "Location", "Project Progress" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "project progress",
+      "patterns": [ ":::--- project progress", ":::--- how much has been completed", ":::--- whats the progress", ":::--- status", ":::--- updates", ":::--- developments", ":::--- improvements", ":::--- progress", " project progress", " how much has been completed", " whats the progress", " status", " updates", " developments", " improvements", " progress", " recent construction image", "recent project image", "constructionimage"],
+      "responses": [ "It is said that the difference between the ordinary and the extraordinary is that little extra. Ahad Excellencia is a project that reflects this difference. Everything here transforms from the average into the magnificent, all because we believe that you deserve more – more space, more convenience, more style and not to forget, more of life’s little joys.<br> These are the late." ],
+      "action": "image",
+      "resources": "construction_image",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "Floor plans", "Location", "Amenities" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "floor_plans",
+      "patterns": [ "floor plans", "show me floor plans", "what are the floor plans", "show me some  good apartments" ],
+      "responses": [ "We're proud to offer variety of Apartments. Please select from the options below to learn more." ],
+      "action": "image",
+      "resources": "image link",
+      "nextpattern": "!!!---",
+      "buttons": [ "About Ahad", "1 bhk", "1.5 bhk", "2 bhk", "2.5 bhk", "3 bhk" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "1bhk",
+      "patterns": [ "!!!--- 1 bhk", "!!!--- 1 bhk", "!!!--- cost for 1 bhk", "!!!--- 1 bhk cost", "!!!--- 1 bhk floor pla", "!!!--- 1bhk pricing", "!!!--- 1 bhk price", "!!!--- price for 1 bhk", "!!!--- 1145 sqft 1bhk", "!!!--- 1146 sqft 1bhk", "!!!--- 1150 sqft 1bhk", "!!!--- 1150 ", "!!!--- 1145 ", "!!!--- 1146 " ],
+      "responses": [ "1 BHK Floor Plan Images<br>  Price: 26L on wards" ],
+      "action": "image",
+      "resources": "ahad_1bhk",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "1.5 bhk", "2 bhk", "2.5 bhk", "3 bhk" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "2bhk",
+      "patterns": [ "!!!--- 2 bhk", "!!!--- 2 bhk", "!!!---  2 bhk floor pla", "!!!--- cost for 2 bhk", "!!!--- 2 bhk cost", "!!!--- 2bhk pricing", "!!!--- 2 bhk price", "!!!--- price for 2 bhk", "!!!--- 450sqft 2bhk", "!!!--- 450", "!!!---500sqft 2bhk", "!!!--- 500", "!!!--- 550sqft 2bhk", "!!!--- 550", "!!!--- 600sqft 2bhk", "!!!--- 600", "!!!--- 650 sqft 2bhk", "!!!--- 650", "!!!--- 700sqft 2bhk", "!!!--- 700", "!!!--- 750sqft 2bhk", "!!!--- 750", "!!!--- 800sqft 2bhk", "!!!--- 800", "!!!--- 850sqft 2bhk", "!!!--- 850", "!!!--- 900sqft 2bhk", "!!!--- 900", "!!!--- 950sqft 2bhk", "!!!--- 950", "!!!--- 1000sqft 2bhk", "!!!--- 1000", "!!!--- 1050sqft 2bhk", "!!!--- 1050", "!!!--- 1100sqft 2bhk", "!!!--- 1100", "!!!--- 1132sqft 2bhk", "!!!--- 1132", "!!!--- 1141sqft 2bhk", "!!!--- 1141 sqft", "!!!---1142 sqft 2bhk", "!!!--- 1142", "!!!--- 1143sqft 2bhk", "!!!--- 1143", "!!!--- 1145sqft 2bhk", "!!!--- 1145", "!!!--- 1162sqft 2bhk", "!!!--- 1162", "!!!--- 1163sqft 2bhk", "!!!--- 1163", "!!!--- 1168sqft 2bhk", "!!!--- 1168", "!!!--- 1176sqft 2bhk", "!!!--- 1176", "!!!--- 1384sqft 2bhk", "!!!--- 1384" ],
+      "responses": [ "2 BHK Floor Plan Images<br>  Price: 55L on wards" ],
+      "action": "image",
+      "resources": "ahad_2bhk",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "1 bhk", "1.5 bhk", "2.5 bhk", "3 bhk" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "3bhk",
+      "patterns": [ "!!!--- 3 bhk", "!!!--- 3 bhk", "!!!--- 3 bhk floor pla", "!!!--- 3bhk pricing", "!!!--- 3 bhk price", "!!!--- price for 3 bhk", "!!!--- 1141 sqft 3bhk", "!!!--- cost for 3 bhk", "!!!--- 3 bhk cost" ],
+      "responses": [ "3 BHK Floor Plan Images<br>   Price: 70L on wards" ],
+      "action": "image",
+      "resources": "ahad_3bhk",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "1 bhk", "1.5 bhk", "2 bhk", "2.5 bhk" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "1.5bhk",
+      "patterns": [ "!!!--- 1.5 bhk", "!!!--- 1.5 bhk", "!!!--- 1.5 bhk floor pla", "!!!--- cost for 1.5 bhk", "!!!--- 1.5 bhk cost" ],
+      "responses": [ "1.5 BHK Floor Plan Images<br>    Price: 35L on wards" ],
+      "action": "image",
+      "resources": "ahad_1_5bhk",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "1 bhk", "2 bhk", "2.5 bhk", "3 bhk" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "2.5bhk",
+      "patterns": [ "!!!--- 2.5 bhk", "!!!--- 2.5 bhk", "!!!--- 2.5 bhk floor plans", "!!!--- cost for 2.5 bhk", "!!!--- 2.5 bhk cost" ],
+      "responses": [ "Sorry, requested flat have been sold out.<br> 60L on wards <br>  * All Flats are booked<br> Do you want to know more details?." ],
+      "action": "image",
+      "resources": "image link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "1 bhk", "1.5 bhk", "2 bhk", "3 bhk" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "location",
+      "patterns": [ "location", "where is it located", "it's location" ,"where is ahadexcellencia"],
+      "responses": [ "The project is located located off Sarjapur Road, Bengaluru. Sarjapur is often called the 'new Bangalore' for a reason. As the de facto IT hub of Bangalore, Sarjapur is home to some of the major IT companies in India. Check out near by Amenities" ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "--||--",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Hospitals", "Nearby Landmarks", "Nearby Eateries", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "schools",
+      "patterns": [ "--||-- schools", "--||-- nearby schools", "--||-- colleges" ],
+      "responses": [ "Prakriya Green Wisdom School: 1.1KM Primus <br>Public School: 1.3KM <br> Harvest International School: 3KM <br> Delhi Public School: 5.9KM <br> PESIT College: 6.3KM <br> Greenwood School: 12.5KM <br> Bethany High School: 13.5KM" ],
+      "action": "school_map",
+      "resources": "",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Techparks", "Nearby Hospitals", "Nearby Landmarks", "Nearby Eateries", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "hospitals",
+      "patterns": [ "--||-- hospitals", "--||-- nearby hospitals", "--||-- medical facility" ],
+      "responses": [ "Columbia Asia Hospital: 7.3KM <br> Motherhood Hospital: 7KM <br> Sakra World Hospital: 9.9KM" ],
+      "action": "hospital_map",
+      "resources": "",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Landmarks", "Nearby Eateries", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "techparks",
+      "patterns": [ "--||-- techparks", "--||-- nearby techparks", "--||-- techparks" ],
+      "responses": [ "RGA Teck Park: 3.7KM <br> Wipro Corporate Office: 4.5KM <br> Wipro SEZ: 4.5KM <br> Infosys: 8.6KM" ],
+      "action": "techpark_map",
+      "resources": "",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Hospitals", "Nearby Landmarks", "Nearby Eateries", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "eateries",
+      "patterns": [ "--||-- eateries", "--||-- nearby eateries", "--||-- Food", "--||-- hostels", "--||-- restaurant", "--||-- hungry" ],
+      "responses": [ "A2's Rasoi: 2.2KM <br>The Lakefront Kitchen: 2.5KM <br> POSTO: 4.4KM <br> Sky Sahara: 4.5KM <br> Onions: 5.0KM <br> Lyju Kodathi: 5.2KM <br> Monkey's Hat: 5.56KM <br> The Nosh House: 6.1KM <br> KEECHON: 7.1KM <br> Hotel Monorama Odia Hotel: 7.3KM <br> The Udupi Kitchen: 7.7KM <br> Foodies Express: 7.7KM <br> The Fisherman's Wharf: 7.8KM <br> DVG Benne Dose: 7.8KM" ],
+      "action": "eateries_map",
+      "resources": "",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Hospitals", "Nearby Landmarks", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "malls",
+      "patterns": [ "--||-- malls", "--||-- nearby malls", "--||-- shopping centres", "--||-- plaza", "--||-- market" ],
+      "responses": [ "Market Square: 7.0KM <br>Mahindra Millennium Mall: 8.4KM <br> Chandra Shopping Mall: 9.9KM <br> Royal Meenakshi Mall: 12.1KM <br> The Forum Neighbourhood Mall: 15.3KM <br> Gopalan Innovation Mall: 16.4KM <br> Bangalore Central: 16.4KM <br> Brookfield Mall: 17.5KM <br> Garuda Mall: 17.8KM <br> Phoenix Market City: 19.7KM <br> Inorbit Mall Whitefield: 22.2KM" ],
+      "action": "mall_map",
+      "resources": "",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Hospitals", "Nearby Landmarks", "Nearby Eateries", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "landmarks",
+      "patterns": [ "--||-- landmarks", "--||-- nearby landmarks", "--||-- notable places", "--||-- nearby places" ],
+      "responses": [ "Doddamara: 2.2KM <br>Dr.BR Ambedkar Statue: 6.9KM <br> Kodi Singasandra Lake: 7.1KM <br> Chikka Begur Bere: 7.7KM <br> Ambedkar Statue: 9.6KM <br> Banyan Tree: 10.8KM <br> Bangalore Fort: 19.4KM" ],
+      "action": "landmark_map",
+      "resources": "",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Hospitals", "Nearby Eateries", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "gaming-zones",
+      "patterns": [ "--||-- gaming-zones", "--||--the nearby gaming-zones", "--||-- gaming zones", "--||-- leisure activity", "--||-- game" ],
+      "responses": [ "Gaminglounge: 7.4KM <br> Shooting zones: 12.1KM <br> REX E-Sports: 13.5KM <br>Friend's Cyber World & Gaming Zone: 14.0KM <br> VR Room: 14.3KM <br> Gamineazy Store: 15.2KM <br> Game Zone: 17.8KM " ],
+      "action": "gaming_map",
+      "resources": "",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Hospitals", "Nearby Landmarks", "Nearby Eateries", "Nearby Malls" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "brochure",
+      "patterns": [ "get me brochure", "brochure", "can i get a brochure" ],
+      "responses": [ "Please use the bleow button to download the brochure" ],
+      "action": "form",
+      "resources": "render form",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "About Excellencia", "Floor plans", "Location" ],
+      "context": [ "" ]
+    }
+  ]
+}

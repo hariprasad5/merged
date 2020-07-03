@@ -1,0 +1,254 @@
+{
+  "intents": [
+    {
+      "tag": "main menu",
+      "patterns": [ "give me the menu", "show me the main menu", "where is the main menu", "display main menu", "help" ],
+      "responses": [ "Please select one of the below options or ask your own question " ],
+      "action": "",
+      "resources": "",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadOpus", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t1",
+      "patterns": [ "Good morning", "good mornin", "gud morning", "mornin", "gm" ],
+      "responses": [ "Good Morning <br> Welcome to Ahad Builders help desk <br> Ahad Opus is an exclusive residential offering of luxurious 2 and 3 BHK apartments. It is a magnificent, high-rise G+ 17 residential apartment of 232 units spread over 2.5 acres, just 100 M from Main Sarjapur road. Book a home in Ahad Opus and experience the benefits of living in Bangalore’s most desirable location. See video - here " ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadOpus", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t2",
+      "patterns": [ "Good Afternoon", "noon" ],
+      "responses": [ "Good Afternoon <br> Welcome to Ahad Builders help desk <br> Ahad Opus is an exclusive residential offering of luxurious 2 and 3 BHK apartments. It is a magnificent, high-rise G+ 17 residential apartment of 232 units spread over 2.5 acres, just 100 M from Main Sarjapur road. Book a home in Ahad Opus and experience the benefits of living in Bangalore’s most desirable location. See video - here   " ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadOpus", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t3",
+      "patterns": [ "Good Evening", "ge" ],
+      "responses": [ "Good Evening <br> Welcome to Ahad Builders help desk <br> Ahad Opus is an exclusive residential offering of luxurious 2 and 3 BHK apartments. It is a magnificent, high-rise G+ 17 residential apartment of 232 units spread over 2.5 acres, just 100 M from Main Sarjapur road. Book a home in Ahad Opus and experience the benefits of living in Bangalore’s most desirable location. See video - here   " ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadOpus", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t4",
+      "patterns": [ "Good Night", "night", "gn" ],
+      "responses": [ "Good Night <br> Welcome to Ahad Builders help desk <br> Ahad Opus is an exclusive residential offering of luxurious 2 and 3 BHK apartments. It is a magnificent, high-rise G+ 17 residential apartment of 232 units spread over 2.5 acres, just 100 M from Main Sarjapur road. Book a home in Ahad Opus and experience the benefits of living in Bangalore’s most desirable location. See video - here   " ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadOpus", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t5",
+      "patterns": [ "Hi there", "Is anyone there?", "hello there", "how can you help me", "hi", "hello", "hey", "good day", "who are you" ],
+      "responses": [ "Hello <br> Welcome to Ahad Builders help desk <br> Ahad Opus is an exclusive residential offering of luxurious 2 and 3 BHK apartments. It is a magnificent, high-rise G+ 17 residential apartment of 232 units spread over 2.5 acres, just 100 M from Main Sarjapur road. Book a home in Ahad Opus and experience the benefits of living in Bangalore’s most desirable location. See video - here   " ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadOpus", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "greetings t6",
+      "patterns": [ "How are you", "Hows your day going", "hows life" ],
+      "responses": [ "I am fine thanks for asking <br> Welcome to Ahad Builders help desk <br> Ahad Opus is an exclusive residential offering of luxurious 2 and 3 BHK apartments. It is a magnificent, high-rise G+ 17 residential apartment of 232 units spread over 2.5 acres, just 100 M from Main Sarjapur road. Book a home in Ahad Opus and experience the benefits of living in Bangalore’s most desirable location. See video - here   " ],
+      "action": "video",
+      "resources": "video link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadOpus", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [ "do you have", "give me", "can you help me in planning a date","no","not","i cant read","how is the climate","what is the time/date","what is my pet name","where am i","what is the capital","where is my bike", "is it raining","-","+","*",":","!","Who me","who she","Who he","who it","what she","what he","bullshit","fuck","pussy","motherfucker","cunt","nigga","gay","lesbian","LGBT","bisexual","transgender","whore","asshole","jackass"],
+      "responses": [ "Sorry, I can't understand you. I can speak about Ahad Builders.<br> Please type 'Help' <br>For further details, please email us at sales@ahadbuilders.com or call at +91-7676150150. <br>We would be glad to assist you." ],
+      "action": "link",
+      "resources": "https://ahad's website",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "About AhadOpus", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "about ahad",
+      "patterns": [ "about", "tell me more", "i would like to hear more", "more about ahad", "company", "agency", "about ahad" ],
+      "responses": [ "About 45 years ago, we began our journey of a promising success in building houses and helping build homes. We believe we experience satisfaction in the truest sense only when our customers are happy. Nurturing a legacy of trust for 3 generations now, our promise has met Zero Missed Deadlines. Punctuality is not a lost virtue. We stand testimony to that. Steering clear of debts on our credit, we have built a Zero-Debt Company, Ahad has delivered a whopping 226 projects to about 6,480 customers. Homes raise and age families through different time spans.'Read More'" ],
+      "action": "link",
+      "resources": "https://ahad's website",
+      "nextpattern": "",
+      "buttons": [ "Brochure", "About AhadOpus", "Floor plans", "Location" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "about AhadOpus",
+      "patterns": [ "project details", "recent images", "more about project details", "project dets", "what is ahad opus", "ahad opus", "attributes", "characteristic", "specifics", "about opus" ],
+      "responses": [ "Ahad Opus is an exclusive residential offering of luxurious 2 and 3 BHK apartments. It is a magnificent, high-rise G+ 17 residential apartment of 232 units spread over 2.5 acres, just 100 M from Main Sarjapur road. Book a home in Ahad Opus and experience the benefits of living in Bangalore’s most desirable location. See video - here " ],
+      "action": "image",
+      "resources": "image link",
+      "nextpattern": ":::---",
+      "buttons": [ "About Ahad", "Brochure", "Floor plans", "Location", "Amenities", "Project Progress" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "amenities",
+      "patterns": [ ":::--- amenities", ":::--- amenities offered", ":::--- amenities present", ":::--- facilities provided", ":::--- facility", ":::--- features", ":::--- offered", ":::--- provided", ":::--- project amenities" ],
+      "responses": [ " <b>MAKING LIVES A MASTERPIECE!<b> <br> <br> If you are looking for a luxurious residential apartment by a renowned real estate developer, Ahad Opus is the perfect choice. Book a home in Ahad Opus and experience the benefits of living in Bangalore’s most desirable location.<br><br>- Swimming Pool with Ozone System, Toddler pool along with pool deck<br>- Club House with Pool-side Cafeteria provision<br>- 2 Multi-purpose Halls<br>- Health Club with Jacuzzi, Steam & Sauna (separate for Ladies & Gents)<br>- Well-equipped Gym<br>- Aerobic Hall<br>- Indoor Games with Board games,<br>- Table Tennis, Foos ball & Pool table<br>- Home Theatre<br>- TV Lounge<br>- Lobby with Reception<br>- MS Pergola-facing Fountain<br>- Resting Benches at various locations<br>- Water Features across location<br>- Cricketing Pitch<br>- Basket Ball Pole<br>- Outdoor Ball Badminton Court<br>- Children’s Play Area<br>- Amphitheatre" ],
+      "action": "image",
+      "resources": "image link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "Floor plans", "Location", "Project Progress" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "project_progress",
+      "patterns": [ ":::--- project progress", ":::--- how much has been completed", ":::--- whats the progress", ":::--- status", ":::--- updates", ":::--- developments", ":::--- improvements", ":::--- progress" ],
+      "responses": [ "Ahad Opus is an exclusive residential offering of luxurious 2 & 3 BHK apartments. It is a magnificent, high-rise G+ 17 residential apartment of 232 units spread over 2.5 acres just 100 M from Main Sarjapur road. It is sandwiched between the upcoming (nearing completion) Wipro Campus and the RGA Tech park. This meticulously planned project offers you maximum open space with panoramic views and a plethora of lifestyle amenities." ],
+      "action": "image",
+      "resources": "image link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Brochure", "Floor plans", "Location", "Amenities" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "floor_plans",
+      "patterns": [ "floor plans", "show me floor plans", "what are the floor plans", "show me some  good apartments" ],
+      "responses": [ "We're proud to offer variety of Apartments. Please select from the options below to learn more." ],
+      "action": "image",
+      "resources": "image link",
+      "nextpattern": "!!!---",
+      "buttons": [ "About Ahad", "2 bhk", "2.5 bhk", "3 bhk" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "2bhk",
+      "patterns": [ "!!!--- 2 bhk", "!!!--- 2 bhk", "!!!---  2 bhk floor pla", "!!!--- cost for 2 bhk", "!!!--- 2 bhk cost", "!!!--- 2bhk pricing", "!!!--- 2 bhk price", "!!!--- price for 2 bhk", "!!!--- 450sqft 2bhk", "!!!--- 450", "!!!---500sqft 2bhk", "!!!--- 500", "!!!--- 550sqft 2bhk", "!!!--- 550", "!!!--- 600sqft 2bhk", "!!!--- 600", "!!!--- 650 sqft 2bhk", "!!!--- 650", "!!!--- 700sqft 2bhk", "!!!--- 700", "!!!--- 750sqft 2bhk", "!!!--- 750", "!!!--- 800sqft 2bhk", "!!!--- 800", "!!!--- 850sqft 2bhk", "!!!--- 850", "!!!--- 900sqft 2bhk", "!!!--- 900", "!!!--- 950sqft 2bhk", "!!!--- 950", "!!!--- 1000sqft 2bhk", "!!!--- 1000", "!!!--- 1050sqft 2bhk", "!!!--- 1050", "!!!--- 1100sqft 2bhk", "!!!--- 1100", "!!!--- 1132sqft 2bhk", "!!!--- 1132", "!!!--- 1141sqft 2bhk", "!!!--- 1141 sqft", "!!!---1142 sqft 2bhk", "!!!--- 1142", "!!!--- 1143sqft 2bhk", "!!!--- 1143", "!!!--- 1145sqft 2bhk", "!!!--- 1145", "!!!--- 1162sqft 2bhk", "!!!--- 1162", "!!!--- 1163sqft 2bhk", "!!!--- 1163", "!!!--- 1168sqft 2bhk", "!!!--- 1168", "!!!--- 1176sqft 2bhk", "!!!--- 1176", "!!!--- 1384sqft 2bhk", "!!!--- 1384" ],
+      "responses": [ "2 BHK Floor Plan Images<br>  Price: 75L on wards" ],
+      "action": "image",
+      "resources": "ahad_2bhk",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "2.5 bhk", "3 bhk" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "3bhk",
+      "patterns": [ "!!!--- 3 bhk", "!!!--- 3 bhk", "!!!--- 3 bhk floor pla", "!!!--- 3bhk pricing", "!!!--- 3 bhk price", "!!!--- price for 3 bhk", "!!!--- 1141 sqft 3bhk", "!!!--- cost for 3 bhk", "!!!--- 3 bhk cost" ],
+      "responses": [ "3 BHK Floor Plan Images<br>   Price: 97L on wards" ],
+      "action": "image",
+      "resources": "ahad_3bhk",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "2 bhk", "2.5 bhk" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "2.5bhk",
+      "patterns": [ "!!!--- 2.5 bhk", "!!!--- 2.5 bhk", "!!!--- 2.5 bhk floor plans", "!!!--- cost for 2.5 bhk", "!!!--- 2.5 bhk cost" ],
+      "responses": [ "Sorry, requested flat have been sold out.<br> 89L on wards <br>  * All Flats are booked<br> Do you want to know more details?." ],
+      "action": "image",
+      "resources": "image link",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "2 bhk", "3 bhk" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "location",
+      "patterns": [ "location", "where is it located", "it's location" ],
+      "responses": [ "Ahad Opus is sandwiched between nearing completion Wipro Campus and RGA Tech Park. Many leading schools such as GEAR Innovative International School, Kidzee Preschool, Harvest International School, Delhi Public School, Primus Public School, AmrithaVishwaVidhyapeetam,etc., are located near Ahad Opus. It has a good connectivity to the key IT cluster areas like Whitefield, Electronic City, Outer Ring Road, Marathahalli and Koramangala.<br><br>See location on google Map - Link" ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "--||--",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Hospitals", "Nearby Landmarks", "Nearby Eateries", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "schools",
+      "patterns": [ "--||-- schools", "--||-- nearby schools", "--||-- colleges" ],
+      "responses": [ "Krisha Polytechnic College: 750M <br> St Jeromes Pu and Degree College: 1.0KM <br> Primus Public School: 1.3KM <br> St. Jerome's Pre University College: 1.3KM <br> S L V School Of Nursing: 1.3KM <br> Seal Play Schools: 1.6KM <br> Little Elly Preschool Carmelaram: 1.8KM <br> CMR Gandhi Public School: 2.0KM <br> AET College: 3KM <br> Harvest International School: 3.2KM <br> Sri Chaitanya PU and CBSE College: 3.2KM <br> Delhi Public School, Bangalore East: 3.7KM <br> India International School: 3.7KM <br> Prakriya Green Wisdom School: 4.0KM <br> Greenwood High Pre-School: 10.8KM <br> Bethany High School:12.9KM <br> PESIT College: 14.2KM " ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Techparks", "Nearby Hospitals", "Nearby Landmarks", "Nearby Eateries", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "hospitals",
+      "patterns": [ "--||-- hospitals", "--||-- nearby hospitals", "--||-- medical facility" ],
+      "responses": [ "Shri Manjunatha Clinic And Medicals: 4.5KM <br> Doctor Levine Memorial Hospital: 6.5KM <br>  Motherhood Hospital: 7KM <br> Varthur Government Hospital PHC: 8.2KM <br>Greenview Medical Center - Multi Speciality Hospital Bangalore: 9.6KM <br>Marvel Multispeciality Hospital: 9.7KM <br> Sakra World Hospital: 9.9KM<br> Mathru Hospital: 9.9KM <br> Narayana Multispeciality Hospital, HSR Layout: 10.0KM <br> Queen's Hospital: 10.0KM <br> Columbia Asia Hospital Whitefield, Bangalore: 10.8KM <br> Vimalalaya Hospital: 11.5KM <br> M.G.A Hospital: 11.9KM <br> Springleaf Hospital: 12.8KM <br> Ramakrishna Smart Hospitals: 12.9KM " ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Landmarks", "Nearby Eateries", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "techparks",
+      "patterns": [ "--||-- techparks", "--||-- nearby techparks", "--||-- techparks" ],
+      "responses": [ "Wipro SEZ: 450M <br> RGA Teck Park: 1.0KM <br> RGA Techpark, Bengaluru: 1.6KM <br> Wipro Corporate Office: 4.7KM <br> Infosys: 12.0KM <br> International Tech Park Bangalore(ITPB): 15.7KM" ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Hospitals", "Nearby Landmarks", "Nearby Eateries", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "eateries",
+      "patterns": [ "--||-- eateries", "--||-- nearby eateries", "--||-- Food", "--||-- hostels", "--||-- restaurant", "--||-- hungry" ],
+      "responses": [ "Via Milano: 650M <br> Husband's Kitchen: 800M <br>Tender Coconut: 900M <br> Mahabelly Multicuisine Restaurant: 950M <br> Birbal Darbar - Kodathi: 1.0KM <br> The Rasaganga: 1.1KM <br> Zaika of north: 1.2KM <br> Happy Flavours: 1.3KM <br> Taskbucks: 1.3KM <br> Swadist Pakhal Restaurant: 1.5KM <br> Lalithaa's Kitchen: 1.9KM <br> MONKEY'S HAT: 2.3KM <br> Khandesh Dhaba: 2.5KM <br> Chatori Tongue: 3.1KM <br> Roshani Hotel: 3.3KM <br> The Farmer and The Chef: 3.4KM" ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Hospitals", "Nearby Landmarks", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "malls",
+      "patterns": [ "--||-- malls", "--||-- nearby malls", "--||-- shopping centres", "--||-- plaza", "--||-- market" ],
+      "responses": [ "Market Square: 5.2KM <br> Soul Space Spirit Central Mall: 7.2KM <br>KLM Fashion Mall: 9.1KM <br>Market Square Mall: 11KM <br> The Forum Neighbourhood Mall: 11.4KM <br> Brookefield Mall: 15.6KM <br> Garuda Mall: 16KM " ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Hospitals", "Nearby Landmarks", "Nearby Eateries", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "landmarks",
+      "patterns": [ "--||-- landmarks", "--||-- nearby landmarks", "--||-- notable places", "--||-- nearby places" ],
+      "responses": [ "Dr.BR Ambedkar Statue: 4.4KM <br>Ambedkar statue: 5.3KM <br> Doddamara: 7.3KM <br> Banyan Tree: 9.1KM " ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Hospitals", "Nearby Eateries", "Nearby Malls", "Nearby Gaming-zones" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "gaming-zones",
+      "patterns": [ "--||-- gaming-zones", "--||-- nearby gaming-zones", "--||-- gaming zones", "--||-- leisure activity", "--||-- game"],
+      "responses": [ "Gaminglounge: 9.3KM <br> Rex ESports: 11.7KM <br> Friends Cyber World & Gaming Zone: 13.7KM <br>Agamer Game Zone Sales and Repairs: 14.5KM <br> Game Zone: 16.0KM " ],
+      "action": "map",
+      "resources": "ahad_map_excel",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "Nearby Schools and Colleges", "Nearby Techparks", "Nearby Hospitals", "Nearby Landmarks", "Nearby Eateries", "Nearby Malls" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "brochure",
+      "patterns": [ "get me brochure", "brochure", "can i get a brochure" ],
+      "responses": [ "Please use the bleow button to download the brochure" ],
+      "action": "form",
+      "resources": "render form",
+      "nextpattern": "",
+      "buttons": [ "About Ahad", "About AhadOpus", "Floor plans", "Location" ],
+      "context": [ "" ]
+    }
+  ]
+}
